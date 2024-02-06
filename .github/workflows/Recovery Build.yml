@@ -54,7 +54,6 @@ on:
         default: 'boot'
 
 jobs:
- if: github.event.repository.owner.id == github.event.sender.id
   build:
     runs-on: ubuntu-latest
     permissions:
