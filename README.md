@@ -67,12 +67,12 @@ For example, your username is: JohnSmith
 
 #### 6. Install openssh in Termux and generate ssh keys. (Do not use passphrase for keys)
 
-NOTE: When creating the deploy key for a repository like git@github.com:owner/repo.git or https://github.com/owner/repo, put that URL into the key comment. (Hint: Try ssh-keygen ... -C "git@github.com:owner/repo.git".)
+NOTE: When creating the deploy key for a repository like git@github.com:phhgsi/repo.git or https://github.com/phhgsi/repo, put that URL into the key comment. (Hint: Try ssh-keygen ... -C "git@github.com:phhgsi/repo.git".)
 owner = your Github username
 
 ```
 pkg install openssh
-ssh-keygen -t ed25519 -C "git@github.com:owner/Action-Recovery-Builder.git"
+ssh-keygen -t ed25519 -C "git@github.com:phhgsi/Action-Recovery-Builder.git"
 ```
 
 #### 7. Add the keys to your repo. In Termux, use the following commands:
